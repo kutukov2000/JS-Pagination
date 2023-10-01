@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+
+<body>
+    <h2>Search</h2>
+
+    <form>
+        <div>
+            <h3>Title: </h3>
+        </div>
+        <input id="title" type="text" placeholder="Enter title">
+
+        <div>
+            <h3>Type: </h3>
+        </div>
+        <select id="type">
+            <option value="dog">Movie</option>
+            <option value="cat">Series</option>
+            <option value="hamster">Episode</option>
+        </select>
+
+        <button id="searchBtn" type="button">Search</button>
+    </form>
+
+
+    <ul id="results">
+        
+    </ul>
+
+    <button id="loadMoreBtn" disabled>Load More</button>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
